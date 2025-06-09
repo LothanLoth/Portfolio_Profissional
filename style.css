@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url("css/footer.css");
+@import url("css/main.css");
+@import url("css/header.css");
+@import url("css/button.css");
+@import url("css/font.css");
+@import url("css/link.css");
+
+
+:root
+{
+    --color_principal: #08C9F5;
+    --color_secundaria: black;
+
+    --background__principal: black;
+    --text__color_principal: white;
+
+    --color_hover: yellow;
+}
+
+.corpo__principal
+{
+    min-height: 100vh;
+    background-color: var(--background__principal);
+    color: var(--text__color_principal);
+    display: flex;
+    flex-direction: column; 
+}
+
+

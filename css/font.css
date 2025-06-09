@@ -1,0 +1,51 @@
+
+
+
+.fonte__principal
+{
+  font-family: "Fira Code", monospace;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.fonte__secundaria
+{
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.texto__principal
+{
+    font-size: 1.5em;
+}
+
+.texto__secundario
+{
+    font-size: 1.2em;
+}
+
+.texto__spacing
+{
+
+  text-align: justify;
+
+}
+
+.texto__margin
+{
+  margin: 2em;
+}
+
+.texto__align_left
+{
+  text-align: left;
+}
+
+.texto__align_center
+{
+  text-align: center;
+}
+

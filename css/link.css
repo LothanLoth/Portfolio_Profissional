@@ -1,0 +1,29 @@
+.link__principal
+{
+    text-decoration: none;
+    color: var(--color_secundaria);
+}
+
+.link__secundario
+{
+    text-decoration: none;
+    color: var(--text__color_principal);
+}
+
+.link__principal:hover
+{
+    color: var(--text__color_principal);
+}
+
+.link__secundario:hover
+{
+    text-decoration: none;
+    color: var(--color_principal);
+}
+
+.link__centralized
+{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}

@@ -1,0 +1,31 @@
+.footer__primario
+{
+    background-color: var(--color_principal);
+    margin-top: auto;
+
+    width: 100%;
+    height: 100%;
+}
+
+.footer__container__principal
+{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1%;
+    font-size: 0.7em;
+}
+
+@media screen and (max-width: 1200px) 
+{
+    .footer__primario
+    {
+        font-size: 60%;
+    }
+
+    .footer__container__principal
+    {
+        margin: 1%;
+    }
+}
